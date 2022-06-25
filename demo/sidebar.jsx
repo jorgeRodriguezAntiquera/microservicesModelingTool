@@ -12,7 +12,7 @@ const SIDEBAR_BASIC_SHAPES = [
     name: 'rectangle',
     key: 'Rectangle',
     logo: 'https://img.alicdn.com/tfs/TB19O8OokvoK1RjSZFNXXcxMVXa-33-26.svg',
-    width: 120,
+    width: 110,
     height: 60,
   },
   {
