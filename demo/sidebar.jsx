@@ -8,10 +8,17 @@ import './sidebar.less';
 const { Panel } = Collapse;
 
 const SIDEBAR_BASIC_SHAPES = [
+  /* {
+    name: 'class',
+    key: 'Class',
+    logo: 'https://freesvg.org/img/request-Character-12-SORCERESS-2015072550.png',
+    width: 110,
+    height: 60,
+  }, */
   {
     name: 'rectangle',
     key: 'Rectangle',
-    logo: 'https://img.alicdn.com/tfs/TB19O8OokvoK1RjSZFNXXcxMVXa-33-26.svg',
+    logo: 'https://freesvg.org/img/1445711656.png',
     width: 110,
     height: 60,
   },
@@ -148,7 +155,7 @@ export default class SideBar extends React.Component {
             this.onChange();
           }}
         >
-          <Panel key="common" header="basic">
+          <Panel key="common" header="Classes">
 
             {SIDEBAR_BASIC_SHAPES.map(shape => (
               <a

@@ -40,6 +40,13 @@ export default [
     logo: 'https://img.alicdn.com/tfs/TB1gU1tt3DqK1RjSZSyXXaxEVXa-80-80.svg',
     width: 80,
     height: 80
+  },
+  ,{
+    name: 'clase',
+    key: 'CCClase',
+    logo: 'demo/shape-config/classDiagram.png',
+    width: 100,
+    height: 80
   }
 
 ];

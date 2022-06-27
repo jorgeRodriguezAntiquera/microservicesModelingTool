@@ -1,3 +1,5 @@
+
+
 export default [{
   name: 'primary equipment',
   key: 'zhushebei',
@@ -16,4 +18,11 @@ export default [{
   logo: 'https://img.alicdn.com/tfs/TB1ht.aisbpK1RjSZFyXXX_qFXa-32-32.png',
   width: 100,
   height: 80
-}];
+},{
+  name: 'clase',
+  key: 'CCClase',
+  logo: './classDiagram.svg',
+  width: 100,
+  height: 80
+}
+];
