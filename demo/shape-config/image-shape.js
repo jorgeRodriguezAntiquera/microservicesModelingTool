@@ -1,5 +1,5 @@
 export default [
-  {
+  /* {
     name: 'industry',
     key: 'gongye1',
     logo: 'https://img.alicdn.com/tfs/TB1NzGpt9rqK1RjSZK9XXXyypXa-80-80.svg',
@@ -41,9 +41,9 @@ export default [
     width: 80,
     height: 80
   },
-  ,{
-    name: 'clase',
-    key: 'CCClase',
+  , */{
+    name: 'class',
+    key: 'Class',
     logo: 'demo/shape-config/classDiagram.png',
     width: 100,
     height: 80

@@ -63,7 +63,8 @@ const SIDEBAR_BASIC_SHAPES = [
     logo: '',
     width: 60,
     height: 20,
-  }
+  },
+  
 ];
 
 const SIDEBAR_SVG_SHAPES = [{
@@ -155,7 +156,7 @@ export default class SideBar extends React.Component {
             this.onChange();
           }}
         >
-          <Panel key="common" header="Classes">
+          {/* <Panel key="common" header="Classes">
 
             {SIDEBAR_BASIC_SHAPES.map(shape => (
               <a
@@ -182,9 +183,9 @@ export default class SideBar extends React.Component {
               </a>
             ))}
 
-          </Panel>
+          </Panel> */}
 
-          <Panel header="svg shapes" key="svg">
+         {/*  <Panel header="svg shapes" key="svg">
             {SIDEBAR_SVG_SHAPES.map(shape => (
               <a
                 href="javascript:void(0);"
@@ -209,8 +210,8 @@ export default class SideBar extends React.Component {
                 </Tooltip>
               </a>
             ))}
-          </Panel>
-          <Panel header="images" key="picture">
+          </Panel> */}
+          <Panel header="Classes" key="picture">
             {IMAGE_SHAPES.map(shape => (
               <a
                 onClick={(e) => {
@@ -244,7 +245,7 @@ export default class SideBar extends React.Component {
 
           </Panel>
 
-          <Panel header="cards" key="card">
+          {/* <Panel header="cards" key="card">
             {SIDEBAR_CARD_SHAPES.map(shape => (
               <a
                 onClick={(e) => {
@@ -273,11 +274,11 @@ export default class SideBar extends React.Component {
                   </span>
                 </Tooltip>
 
-              </a>
-            ))}
+              </a> */
+           /*  ))}
 
-          </Panel>
-
+          </Panel> */
+              }
         </Collapse>
 
       </div>
