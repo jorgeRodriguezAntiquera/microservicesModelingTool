@@ -4,6 +4,7 @@ import { message, Layout } from 'antd';
 import Sidebar from './sidebar';
 import Toolbar from './toolbar';
 import Editor from '../src/editor';
+import SiderbarRight from './sidebar-Right';
 
 import IMAGE_SHAPES from './shape-config/image-shape';
 import CARD_SHAPES from './shape-config/card-shape';
@@ -151,7 +152,7 @@ class MyEditor extends React.Component {
             </div>
           </Content>
           <Sider width="235"  theme="light">
-            <Sidebar key="sidebar" editor={editor} />
+            <SiderbarRight key="siderbarRight" editor={editor} />
            </Sider> 
         </Layout>
       </div>
