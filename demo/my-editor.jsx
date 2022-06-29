@@ -4,6 +4,7 @@ import { message, Layout } from 'antd';
 import Sidebar from './sidebar';
 import Toolbar from './toolbar';
 import Editor from '../src/editor';
+import SiderbarRight from './sidebar-Right';
 
 import IMAGE_SHAPES from './shape-config/image-shape';
 import CARD_SHAPES from './shape-config/card-shape';
@@ -11,7 +12,7 @@ import SVG_SHAPES from './shape-config/svg-shape.xml';
 
 import './my-editor.less';
 
-const { Sider, Content } = Layout;
+const { Sider, Content , SiderForm} = Layout;
 
 class MyEditor extends React.Component {
   constructor(props) {
@@ -136,7 +137,7 @@ class MyEditor extends React.Component {
     return (
       <div className="editor-container">
         <Layout>
-          <Sider width="235" theme="light">
+          <Sider width="235"  theme="light">
             <Sidebar key="sidebar" editor={editor} />
           </Sider>
           <Content>
@@ -150,6 +151,9 @@ class MyEditor extends React.Component {
               <div className="graph-content" key="graphcontent" />
             </div>
           </Content>
+          <Sider width="235"  theme="light">
+            <SiderbarRight key="siderbarRight" editor={editor} />
+           </Sider> 
         </Layout>
       </div>
     );
