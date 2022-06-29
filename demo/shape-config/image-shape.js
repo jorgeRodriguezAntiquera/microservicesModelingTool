@@ -1,5 +1,5 @@
 export default [
-  {
+  /* {
     name: 'industry',
     key: 'gongye1',
     logo: 'https://img.alicdn.com/tfs/TB1NzGpt9rqK1RjSZK9XXXyypXa-80-80.svg',
@@ -41,12 +41,19 @@ export default [
     width: 80,
     height: 80
   },
-  ,{
-    name: 'clase',
-    key: 'CCClase',
-    logo: 'demo/shape-config/classDiagram.png',
+  , */{
+    name: 'class',
+    key: 'Class',
+    logo: 'demo/shape-config/class.svg',
     width: 100,
     height: 80
+  },
+  {
+    name: 'composition',
+    key: 'Composition',
+    logo: 'https://pubs.opengroup.org/architecture/archimate3-doc/ts_archimate_3.1-final_files/image036.png',
+    width: 100,
+    height: 80,
   }
 
 ];
