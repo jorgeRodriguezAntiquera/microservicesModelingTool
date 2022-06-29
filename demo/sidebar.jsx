@@ -51,9 +51,9 @@ const SIDEBAR_BASIC_SHAPES = [
     height: 80,
   },
   {
-    name: 'line',
-    key: 'Line',
-    logo: 'https://img.alicdn.com/tfs/TB1LOxPoirpK1RjSZFhXXXSdXXa-38-38.svg',
+    name: 'arrow',
+    key: 'Arrow',
+    logo: 'https://freesvg.org/img/1445711656.png',
     width: 80,
     height: 80,
   },
@@ -156,7 +156,7 @@ export default class SideBar extends React.Component {
             this.onChange();
           }}
         >
-          {/* <Panel key="common" header="Classes">
+          { <Panel key="common" header="Classesss">
 
             {SIDEBAR_BASIC_SHAPES.map(shape => (
               <a
@@ -183,9 +183,9 @@ export default class SideBar extends React.Component {
               </a>
             ))}
 
-          </Panel> */}
+          </Panel> 
 
-         {/*  <Panel header="svg shapes" key="svg">
+         /*  <Panel header="svg shapes" key="svg">
             {SIDEBAR_SVG_SHAPES.map(shape => (
               <a
                 href="javascript:void(0);"

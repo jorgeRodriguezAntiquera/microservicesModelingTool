@@ -44,9 +44,16 @@ export default [
   , */{
     name: 'class',
     key: 'Class',
-    logo: 'demo/shape-config/classDiagram.png',
+    logo: 'demo/shape-config/class.svg',
     width: 100,
     height: 80
+  },
+  {
+    name: 'composition',
+    key: 'Composition',
+    logo: 'https://pubs.opengroup.org/architecture/archimate3-doc/ts_archimate_3.1-final_files/image036.png',
+    width: 100,
+    height: 80,
   }
 
 ];
